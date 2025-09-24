@@ -8,5 +8,6 @@ si va después de la variable entonces primero se asigna el valor y después se 
 5) Y en el ejercicio 3 se obtienen esos resultados porque el simbolo '=' tiene menor jerarquía que los demás símbolos.
    
 ¿El comportamiento de los flujos de control es similar a otros lenguajes y ambientes de desarrollo?
+
 El flujo de control es similar otros lenguajes (c, c++, java o python) porque los flujos de control siguen la misma estructura,
 que consiste en evaluar todas las condiciones hasta encontrar la primera que sea verdadera.
