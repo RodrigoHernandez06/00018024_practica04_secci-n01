@@ -1,8 +1,51 @@
-#titulo-pagina {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+body {
+  font-family: Arial, sans-serif;
+  background: #FAEDCD;
+  text-align: center;
+  padding: 50px;
 }
 
-.Btn-dia{
-    background-color: red;
+h1 {
+  color: #432818;
+}
+
+.container {
+  background: #FEFAE0;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+.dias {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background: #432818;
+  color: #FEFAE0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #CCD5AE;
+  color: #432818
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #432818;
+  padding: 10px;
+  border-radius: 8px;
+  background: #CCD5AE;
 }
